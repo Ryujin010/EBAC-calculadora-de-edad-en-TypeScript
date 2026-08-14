@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",        // Versión de JS de salida
+    "module": "CommonJS",      // Sistema de módulos compatible con Node.js
+    "rootDir": "./src",        // Carpeta donde vivirá el código .ts
+    "outDir": "./dist",        // Carpeta donde se compilará el .js
+    "strict": true,            // Activa todas las verificaciones estrictas de tipos
+    "esModuleInterop": true,   // Mejora compatibilidad con módulos CommonJS
+    "skipLibCheck": true,      // Omite chequeo de tipos en librerías externas
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]
+}
