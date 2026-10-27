@@ -19,10 +19,6 @@ Proyecto desarrollado durante mi formación en **EBAC**.
 
 Calculadora que obtiene la edad a partir de una fecha de nacimiento, desarrollada con TypeScript y tipado estático.
 
-<!-- Agrega aquí una captura de pantalla de tu proyecto:
-![Vista previa](./img/preview.png)
--->
-
 ## 🛠️ Tecnologías
 
 - **TypeScript**
