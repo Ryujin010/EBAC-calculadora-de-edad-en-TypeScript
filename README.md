@@ -1,39 +1,74 @@
 # Calculadora de Edad en TypeScript
 
-Proyecto de práctica con TypeScript y npm: calcula la edad de una persona a partir de su fecha de nacimiento (formato `YYYY-MM-DD`), con validaciones de formato, fechas inexistentes (ej. 29 de febrero en años no bisiestos) y fechas futuras.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## 📂 Estructura
-src/
-├── app.ts # Punto de entrada, ejecuta pruebas manuales
-└── utils/
-└── fechas.ts # Lógica de parsearFecha y calcularEdad
+> Calculadora que obtiene la edad a partir de una fecha de nacimiento, desarrollada con TypeScript y tipado estático.
 
-## 🚀 Cómo ejecutar
+Proyecto desarrollado durante mi formación en **EBAC**.
 
-1. Instala las dependencias:
+## 📋 Tabla de contenido
+
+- [Descripción](#-descripción)
+- [Tecnologías](#-tecnologías)
+- [Características](#-características)
+- [Instalación y uso](#-instalación-y-uso)
+- [Lo que aprendí](#-lo-que-aprendí)
+- [Autor](#-autor)
+
+## 📖 Descripción
+
+Calculadora que obtiene la edad a partir de una fecha de nacimiento, desarrollada con TypeScript y tipado estático.
+
+<!-- Agrega aquí una captura de pantalla de tu proyecto:
+![Vista previa](./img/preview.png)
+-->
+
+## 🛠️ Tecnologías
+
+- **TypeScript**
+- **HTML5**
+- **CSS3**
+
+## ✨ Características
+
+- Cálculo de edad a partir de la fecha de nacimiento
+- Tipado estático con TypeScript
+- Código compilado a JavaScript para ejecutarse en el navegador
+
+## 🚀 Instalación y uso
+
+Clona el repositorio:
+
 ```bash
+git clone https://github.com/Ryujin010/EBAC-calculadora-de-edad-en-TypeScript.git
+cd EBAC-calculadora-de-edad-en-TypeScript
+```
+
+Luego:
+
+1. Instala las dependencias (si el proyecto incluye `package.json`):
+   ```bash
    npm install
-```
-
-2. Compila el proyecto:
-```bash
+   ```
+2. Compila el código TypeScript:
+   ```bash
    npx tsc
-```
+   ```
+3. Abre `index.html` en tu navegador.
 
-3. Ejecuta el resultado compilado:
-```bash
-   node dist/app.js
-```
+## 🧠 Lo que aprendí
 
-   O, alternativamente, ejecuta directo sin compilar (requiere `tsx`):
-```bash
-   npx tsx src/app.ts
-```
+- Fundamentos de TypeScript: tipos, interfaces y funciones tipadas
+- Compilación de TypeScript a JavaScript
+- Trabajo con fechas en JavaScript/TypeScript
 
-## ✅ Casos de prueba cubiertos
+## 👨‍💻 Autor
 
-- Fecha válida normal
-- Fecha futura (rechazada)
-- Formato inválido (rechazado)
-- Días inexistentes en años no bisiestos, ej. `1995-02-29` (rechazado)
-- Años bisiestos válidos, ej. `2000-02-29` (aceptado)
+**Jesus Enrique Leon Arteaga**
+
+- GitHub: [@Ryujin010](https://github.com/Ryujin010)
+- Correo: jesuse.gjn@gmail.com
+
+---
+
+⭐ Si te gustó este proyecto, ¡déjale una estrella al repositorio!
